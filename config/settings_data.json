@@ -42,8 +42,8 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Stay in touch",
+              "subtext": "<p>Sign up for our email list to receive special offers on our products and news about our growing business. <\/p>"
             }
           }
         },
