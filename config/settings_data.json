@@ -1,7 +1,9 @@
 {
-  "current": "Default",
+  "current": {
+  },
   "presets": {
-    "Default": {},
+    "Default": {
+    },
     "Craft": {
       "colors_solid_button_labels": "#EFECEC",
       "colors_accent_1": "#2A332F",
