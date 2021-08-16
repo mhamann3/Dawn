@@ -1,12 +1,35 @@
+<section class="instafeed-container">
+  <h1 style="text-align: center">Show Instagram Feed on your Website</h1>
+  <div id="instafeed-container"></div>
+</section>
+
+<style type="text/css">
+		a img{ 
+			width: 25%;
+		}
+</style>
+
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: 'user',
+    target: "instafeed-container",
+    resolution: 'low_resolution',
+    accessToken: 'IGQVJWMDhDa2FndmpQelh6RFEzUlo5eGFKbENjX29XSmFWeUhvd25UTVlfMTVjT1dEYXdTVGZA5NURUbEZAkZA3VybERzazFmQ2dLWTFfT0pvOTlnN2FnWDFyQU5kTzZA3SGlOdVF6c2VZAMmM3UFhCWVRiTgZDZD'
+  });
+  userFeed.run();
+</script>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Ishi Instagram Block",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Ishi Instagram Block",
+        "category": "ishi themes"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
