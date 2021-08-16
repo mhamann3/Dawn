@@ -176,6 +176,11 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16291573841addbdcf": {
+      "type": "ishi_instafeed",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -184,6 +189,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "16291573841addbdcf"
   ]
 }
