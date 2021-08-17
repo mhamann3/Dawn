@@ -1,10 +1,14 @@
 {
   "current": {
+    "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#4c1d1d",
     "colors_accent_2": "#f04e30",
-    "colors_outline_button_labels": "#dfe0d5",
+    "colors_text": "#455555",
+    "colors_outline_button_labels": "#4c1d1d",
+    "colors_background_1": "#FFFFFF",
     "colors_background_2": "#dfe0d5",
-    "type_body_font": "josefin_sans_n4",
+    "type_header_font": "montserrat_n5",
+    "type_body_font": "montserrat_n4",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/live_pacha\/",
     "social_instagram_link": "https:\/\/instagram.com\/livepacha",
     "checkout_header_image": "shopify:\/\/shop_images\/A60I0552.jpg",
