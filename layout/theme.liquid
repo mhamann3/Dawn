@@ -105,6 +105,9 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     {% render 'judgeme_core' %}
+<!--Gem_Page_Header_Script-->
+{% include 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
 </head>
 
   <body>
@@ -143,5 +146,8 @@
         unavailable: `{{ 'products.product.unavailable' | t }}`,
       }
     </script>
-  </body>
+  <!--Gem_Page_Footer_Script-->
+{% include 'gem-app-footer-scripts' %}
+<!--End_Gem_Page_Footer_Script-->
+</body>
 </html>
