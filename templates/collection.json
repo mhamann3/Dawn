@@ -1,14 +1,12 @@
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner"
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid"
+    "1644626518qb0j03vx": {
+      "type": "gem-page-default-collection",
+      "settings": {
+      }
     }
   },
   "order": [
-    "banner",
-    "product-grid"
+    "1644626518qb0j03vx"
   ]
 }
