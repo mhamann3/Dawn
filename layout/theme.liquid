@@ -156,7 +156,7 @@
       }
     </style>
     <script>
-  const config = {
+  const gconfig = {
   productId: {{product.id}}, // Required
   injectionParent: '.rc-widget-injection-parent', // The node that will have the widget injected in
   injectionMethod: 'prepend', // How will the widget be injected 
@@ -167,7 +167,7 @@
   }
 };
 setTimeout(function(){
-  window.ReChargeWidget.createWidget(config);
+  window.ReChargeWidget.createWidget(gconfig);
 }, 2000);
 </script>
 </body>
