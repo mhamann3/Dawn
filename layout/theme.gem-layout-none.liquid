@@ -123,5 +123,20 @@
 <!--Gem_Page_Footer_Script-->
 {% include 'gem-app-footer-scripts' %}
 <!--End_Gem_Page_Footer_Script-->
+    <script>
+      const gconfig = {
+      productId: {{product.id}}, // Required
+      injectionParent: '.rc-widget-injection-parent', // The node that will have the widget injected in
+      injectionMethod: 'prepend', // How will the widget be injected 
+      injectFn: (node, target) => {}, // Runs a custom injection function 
+      selectors: {
+        price: ['.gf_product-price'], // the selectors that will be updated based on subscription
+        variant: ['.gf_variants'] // The variants to watch for to update the subscription prices
+      }
+    };
+    setTimeout(function(){
+      window.ReChargeWidget.createWidget(gconfig);
+    }, 1000);
+    </script>
 </body>
 </html>
