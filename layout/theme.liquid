@@ -166,9 +166,12 @@
         variant: ['.gf_variants'] // The variants to watch for to update the subscription prices
       }
     };
-    setTimeout(function(){
-      window.ReChargeWidget.createWidget(gconfig);
-    }, 1000);
+    var currencyHotfix = setInterval(function (){
+      if(window.ReChargeWidget) {
+      	 window.ReChargeWidget.createWidget(gconfig);
+         clearInterval(currencyHotfix);
+      }
+    }, 500);
     </script>
 </body>
 </html>
