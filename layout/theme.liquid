@@ -155,20 +155,5 @@
         display: none !important;
       }
     </style>
-    <script>
-  const gconfig = {
-  productId: {{product.id}}, // Required
-  injectionParent: '.rc-widget-injection-parent', // The node that will have the widget injected in
-  injectionMethod: 'prepend', // How will the widget be injected 
-  injectFn: (node, target) => {}, // Runs a custom injection function 
-  selectors: {
-    price: ['.gf_product-price'], // the selectors that will be updated based on subscription
-    variant: ['.variant-selector'] // The variants to watch for to update the subscription prices
-  }
-};
-setTimeout(function(){
-  window.ReChargeWidget.createWidget(gconfig);
-}, 2000);
-</script>
 </body>
 </html>
