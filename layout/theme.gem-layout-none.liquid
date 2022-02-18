@@ -123,6 +123,11 @@
 <!--Gem_Page_Footer_Script-->
 {% include 'gem-app-footer-scripts' %}
 <!--End_Gem_Page_Footer_Script-->
+    <style>
+      .body.gempage form > .rc_container_wrapper {
+        display: none;
+      }
+	</style>
     <script>
       const gconfig = {
       productId: {{product.id}}, // Required
