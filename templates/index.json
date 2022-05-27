@@ -179,6 +179,7 @@
     },
     "16291573841addbdcf": {
       "type": "ishi_instafeed",
+      "disabled": true,
       "settings": {
       }
     }

@@ -64,11 +64,19 @@
               "heading": "Stay in touch",
               "subtext": "<p>Sign up for our email list to receive special offers on our products and news about our growing business. <\/p>"
             }
+          },
+          "c87666d6-7484-4d46-977f-a6dabc2ba7a8": {
+            "type": "text",
+            "settings": {
+              "heading": "Follow us on social",
+              "subtext": "<p>Find us @livepacha!<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "c87666d6-7484-4d46-977f-a6dabc2ba7a8"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -83,15 +91,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "57056396521953910": {
-        "type": "shopify:\/\/apps\/dcart-discount-on-cart\/blocks\/app-embed\/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
-        "disabled": true,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
