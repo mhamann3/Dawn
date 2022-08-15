@@ -12,6 +12,7 @@
     "accent_icons": "text",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/live_pacha\/",
     "social_instagram_link": "https:\/\/instagram.com\/livepacha",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@livepacha",
     "favicon": "shopify:\/\/shop_images\/Pacha_newlogo_v1_burntsienna.png",
     "checkout_header_image": "shopify:\/\/shop_images\/A60I0552.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/PACHA_NEWv1_logo_WHITE.png",
@@ -64,25 +65,17 @@
               "heading": "Stay in touch",
               "subtext": "<p>Sign up for our email list to receive special offers on our products and news about our growing business. <\/p>"
             }
-          },
-          "c87666d6-7484-4d46-977f-a6dabc2ba7a8": {
-            "type": "text",
-            "settings": {
-              "heading": "Follow us on social",
-              "subtext": "<p>Find us @livepacha<\/p>"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "c87666d6-7484-4d46-977f-a6dabc2ba7a8"
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
