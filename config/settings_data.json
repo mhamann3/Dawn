@@ -58,18 +58,10 @@
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Stay in touch",
-              "subtext": "<p>Sign up for our email list to receive special offers on our products and news about our growing business. <\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
