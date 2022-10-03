@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const {cart_discount_note} = JSON.parse(localStorage.getItem('candyrack-translations')) || {}
 
     if(items.length && itemsTotals.length && discount && variantId) {
-        console.log("CR Test")
+        console.log("CR")
         itemsTotals.forEach(i => {
             const href = i.querySelector("a")?.href
             const hasNote = i.querySelector('[candyrack-cart-info]')
