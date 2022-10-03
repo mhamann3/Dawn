@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               const message = cart_discount_note || 'Discount AMOUNT will be applied at checkout.'
               a.insertAdjacentHTML(
                'afterend',
-               `<div style="text-align: justify;font-size: 12px;position: relative;right: 62.5rem;">${message.replace('AMOUNT', discount)}</div>`)
+               `<div style="text-align: justify;font-size: 12px;position: relative;right: 111.5rem;">${message.replace('AMOUNT', discount)}</div>`)
             }
         })
     }
