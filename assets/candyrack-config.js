@@ -10,13 +10,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     if(items.length && itemsTotals.length && discount && variantId) {
         console.log("CR Test")
         itemsTotals.forEach(i => {
-             console.log("CR Test 2")
-            console.log(variantId)
-            console.log
             const href = i.querySelector("a")?.href
             const hasNote = i.querySelector('[candyrack-cart-info]')
             if(href && href.includes(variantId) && !hasNote) {
-                console.log("CR Test 3")
+                console.log("CR Discount note added")
                 
               const a = i.querySelector("a")
               const message = cart_discount_note || 'Discount AMOUNT will be applied at checkout.'
