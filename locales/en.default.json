@@ -389,13 +389,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address1_label": "Address (Please note we do not ship to PO boxes)"
-      },
-      "delivery_options": {
-        "shipping_address": "Shipping address (Please note we do not ship to PO boxes)"
-      },
-      "shipping": {
-        "shipping_method_notice": "Please note we do not ship to PO boxes"
+        "shipping_address_title": "Shipping Address (Please note we do not ship to PO Boxes)"
       }
     }
   }
