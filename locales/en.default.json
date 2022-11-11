@@ -395,7 +395,7 @@
         "shipping_address": "Shipping address (Please note we do not ship to PO boxes)"
       },
       "shipping": {
-        "shipping_method_notice": "Please note we do not ship to PO boxes currently"
+        "shipping_method_notice": "Please note we do not ship to PO boxes"
       }
     }
   }
