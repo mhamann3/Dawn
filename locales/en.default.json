@@ -390,7 +390,7 @@
     "checkout": {
       "contact": {
         "shipping_address_title": "Shipping Address (We do not ship to PO Boxes)",
-        "address1_label": "Address (We do not ship to PO Boxes)"
+        "address1_label": "Address (we do not ship to PO Boxes)"
       }
     }
   }
