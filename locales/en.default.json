@@ -389,7 +389,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "shipping_address_title": "Shipping Address (Please note we do not ship to PO Boxes)"
+        "shipping_address_title": "Shipping Address (We do not ship to PO Boxes)"
       }
     }
   }
