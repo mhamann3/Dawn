@@ -394,6 +394,9 @@
       },
       "delivery_options": {
         "shipping_address": "Shipping address (we do not ship to PO Boxes)"
+      },
+      "shipping": {
+        "shipping_method_title": "Shipping method (we do not ship to PO Boxes)"
       }
     }
   }
