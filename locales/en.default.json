@@ -391,6 +391,9 @@
       "contact": {
         "address1_label": "Address (we do not ship to PO Boxes)",
         "shipping_address_title": "Shipping address (we do not ship to PO Boxes)"
+      },
+      "delivery_options": {
+        "shipping_address": "Shipping address (we do not ship to PO Boxes)"
       }
     }
   }
