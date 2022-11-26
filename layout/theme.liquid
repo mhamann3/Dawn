@@ -2,17 +2,6 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
 
-    <!-- Event snippet for Gads_Purchase_Tag conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-659894460/RWYcCPiNqoMYELzh1LoC',
-      'value': 1.0,
-      'currency': 'USD',
-      'transaction_id': ''
-  });
-</script>
-
-
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HHSVEDV7X"></script>
 <script>
@@ -139,17 +128,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {% include 'gem-app-header-scripts' %}
 <!--End_Gem_Page_Header_Script-->
 
-    
-<!-- Global site tag (gtag.js) - Google Ads: 659894460 -->
+        {% render 'digismoothie-candyrack' %}
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-659894460"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'AW-659894460');
 </script>
 
-        {% render 'digismoothie-candyrack' %}
     
         </head>
         
