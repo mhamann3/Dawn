@@ -12,6 +12,17 @@
   gtag('config', 'AW-659894460');
 </script>
 
+    {% if first_time_accessed %}
+<!-- Event snippet for Gads_Purchase conversion page -->
+
+  gtag('event', 'conversion', {
+      'send_to': 'AW-659894460/G62ICIPa2YMYELzh1LoC',
+      'value': {{ checkout.subtotal_price | divided_by: 100.0 }},
+      'currency': '{{ currency }}',
+      'transaction_id': '{{ order_number  }}'
+  });
+
+{% endif %}
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HHSVEDV7X"></script>
