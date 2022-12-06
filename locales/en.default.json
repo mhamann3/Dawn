@@ -292,7 +292,7 @@
       "city": "City",
       "country": "Country\/region",
       "province": "Province",
-      "zip": "Postal\/ZIP code",
+      "zip": "ZIP code (5 digits only)",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -390,11 +390,16 @@
     "checkout": {
       "contact": {
         "address1_label": "Address (we do not ship to PO Boxes)",
-        "shipping_address_title": "Shipping address (we do not ship to PO Boxes)"
+        "shipping_address_title": "Shipping address (we do not ship to PO Boxes)",
+        "zip_code_label": "ZIP code (5 digits only)",
+        "zip_code_placeholder": "ZIP code (5 digits only)"
       },
       "delivery_options": {
         "shipping_address": "Shipping address (we do not ship to PO Boxes)"
       }
+    },
+    "addresses": {
+      "zip_code": "ZIP code (5 digits only)"
     }
   }
 }
