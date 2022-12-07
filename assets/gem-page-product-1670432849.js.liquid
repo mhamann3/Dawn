@@ -115,11 +115,6 @@ switch(style) {
   $module.gfV3ProductCartButton({ onItemAdded: function(data) {}});
 })( window.GemQuery || jQuery );
     
-    
-(function( jQuery ){
-  var $module = jQuery('#m-1631096738102').children('.module');
-  $module.gfV3ProductDesc();
-})( window.GemQuery || jQuery );
     jQuery(function() {
     var $module = jQuery('#m-1631095169629').children('.module');
     var swatchText = $module.attr('data-swatch-text') != undefined ? $module.attr('data-swatch-text') : '1';
@@ -138,6 +133,11 @@ switch(style) {
     });
     
 });
+(function( jQuery ){
+  var $module = jQuery('#m-1631096738102').children('.module');
+  $module.gfV3ProductDesc();
+})( window.GemQuery || jQuery );
+    
 (function( jQuery ){
   var $module = jQuery('#m-1631095169329').children('.module');
   var style = $module.attr('data-style');
