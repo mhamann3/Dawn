@@ -115,7 +115,14 @@ switch(style) {
   $module.gfV3ProductCartButton({ onItemAdded: function(data) {}});
 })( window.GemQuery || jQuery );
     
-    jQuery(function() {
+    
+    (function(jQuery) {
+    var $module = jQuery('#m-1670452064846').children('.module');
+    $module.gfV3ProductPrice({
+        displayCurrency: true
+    });
+})(window.GemQuery || jQuery);
+  jQuery(function() {
     var $module = jQuery('#m-1631095169629').children('.module');
     var swatchText = $module.attr('data-swatch-text') != undefined ? $module.attr('data-swatch-text') : '1';
     $module.gfV3ProductSwatches({
