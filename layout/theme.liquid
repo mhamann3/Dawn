@@ -221,5 +221,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     }, 500);
     </script>
-{% render 'th-bundle-product' %}</body>
+{% render 'th-bundle-product' %}
+<!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_qab_main', product: product, customer: customer %}
+    <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+</body>
 </html>
