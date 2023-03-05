@@ -397,7 +397,7 @@
         "optional_address2_label": "Apartment, suite, special instructions, etc (optional)"
       },
       "delivery_options": {
-        "shipping_address": "Shipping address (we do not ship to PO Boxes \/ MUST REFRIGERATE OR FREEZE IMMEDIATELY UPON ARRIVAL)"
+        "shipping_address": "Shipping address (WE DO NOT SHIP TO PO BOXES \/ MUST REFRIGERATE OR FREEZE IMMEDIATELY UPON ARRIVAL)"
       }
     },
     "addresses": {
