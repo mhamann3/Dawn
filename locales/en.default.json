@@ -389,7 +389,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "address1_label": "Address (we do not ship to PO Boxes)",
+        "address1_label": "Address (we do not ship to PO Boxes \/ MUST REFRIGERATE MMEDIATELY UPON ARRIVAL)",
         "shipping_address_title": "Shipping address (we do not ship to PO Box)",
         "zip_code_label": "ZIP code (5 digits only)",
         "zip_code_placeholder": "ZIP code (5 digits only)",
