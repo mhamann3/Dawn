@@ -397,7 +397,7 @@
         "optional_address2_label": "Apartment, suite, special instructions, etc (optional)"
       },
       "delivery_options": {
-        "shipping_address": "Shipping address (we do not ship to PO Boxes)"
+        "shipping_address": "Shipping address (we do not ship to PO Box)"
       }
     },
     "addresses": {
