@@ -9,7 +9,7 @@
     "e1f0a447-1c69-4a94-8ca7-eef735d6e473": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1>Where to buy<\/h1>"
+        "custom_liquid": "<div class=\"page-width\"><h1 class=\"main-page-title page-title h0 pl-6\">Where to buy<\/h1><\/div>"
       }
     },
     "169817835728037e76": {
