@@ -2,7 +2,14 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "e1f0a447-1c69-4a94-8ca7-eef735d6e473": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1>Where to buy<\/h1>"
       }
     },
     "169817835728037e76": {
@@ -24,6 +31,7 @@
   },
   "order": [
     "main",
+    "e1f0a447-1c69-4a94-8ca7-eef735d6e473",
     "169817835728037e76"
   ]
 }
