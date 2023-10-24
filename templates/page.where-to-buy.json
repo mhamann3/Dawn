@@ -4,9 +4,26 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "169817835728037e76": {
+      "type": "apps",
+      "blocks": {
+        "0dd09fe9-9eeb-4437-8c25-271dad2613b6": {
+          "type": "shopify:\/\/apps\/progus-store-locator-map\/blocks\/app-block\/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "0dd09fe9-9eeb-4437-8c25-271dad2613b6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "169817835728037e76"
   ]
 }
