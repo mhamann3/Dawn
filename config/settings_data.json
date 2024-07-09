@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -14,6 +23,7 @@
     "social_instagram_link": "https:\/\/instagram.com\/livepacha",
     "social_tiktok_link": "https:\/\/tiktok.com\/@livepacha",
     "favicon": "shopify:\/\/shop_images\/Pacha_newlogo_v1_burntsienna.png",
+    "currency_code_enabled": false,
     "checkout_header_image": "shopify:\/\/shop_images\/Group_Shot_Lineup_1_fa3c18e6-e1c6-4eb9-8e1b-abb573e5fde8.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/PACHA_NEWv1_logo_WHITE.png",
     "checkout_accent_color": "#007bc3",
